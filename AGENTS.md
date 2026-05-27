@@ -74,3 +74,4 @@ docs(readme): add project overview
 
 - 빌드 아티팩트 및 OS 전용 파일(`.DS_Store`, `Thumbs.db` 등)은 커밋하지 않는다.
 - SVG, 이미지 등 에셋 파일은 역할을 명확히 알 수 있는 이름으로 관리한다.
+나ㅑ
