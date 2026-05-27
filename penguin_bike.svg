@@ -1,0 +1,57 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#87CEEB"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="250" width="400" height="50" fill="#228B22"/>
+  
+  <!-- Bicycle -->
+  <!-- Wheels -->
+  <circle cx="120" cy="220" r="25" fill="none" stroke="black" stroke-width="4"/>
+  <circle cx="220" cy="220" r="25" fill="none" stroke="black" stroke-width="4"/>
+  
+  <!-- Spokes -->
+  <line x1="120" y1="195" x2="120" y2="245" stroke="black" stroke-width="1"/>
+  <line x1="95" y1="220" x2="145" y2="220" stroke="black" stroke-width="1"/>
+  <line x1="220" y1="195" x2="220" y2="245" stroke="black" stroke-width="1"/>
+  <line x1="195" y1="220" x2="245" y2="220" stroke="black" stroke-width="1"/>
+  
+  <!-- Frame -->
+  <line x1="120" y1="195" x2="160" y2="150" stroke="black" stroke-width="4"/>
+  <line x1="160" y1="150" x2="200" y2="170" stroke="black" stroke-width="4"/>
+  <line x1="200" y1="170" x2="220" y2="220" stroke="black" stroke-width="4"/>
+  
+  <!-- Seat -->
+  <ellipse cx="190" cy="140" rx="15" ry="8" fill="red" stroke="black" stroke-width="2"/>
+  
+  <!-- Handlebars -->
+  <line x1="160" y1="150" x2="130" y2="120" stroke="black" stroke-width="4"/>
+  <line x1="130" y1="120" x2="150" y2="110" stroke="black" stroke-width="4"/>
+  
+  <!-- Penguin -->
+  <!-- Body -->
+  <ellipse cx="190" cy="180" rx="30" ry="40" fill="black"/>
+  <!-- Belly -->
+  <ellipse cx="190" cy="190" rx="20" ry="30" fill="white"/>
+  <!-- Head -->
+  <circle cx="190" cy="130" r="20" fill="black"/>
+  <!-- Face white -->
+  <circle cx="190" cy="135" r="12" fill="white"/>
+  <!-- Beak -->
+  <polygon points="190,135 205,140 190,145" fill="orange"/>
+  <!-- Eyes -->
+  <circle cx="182" cy="128" r="3" fill="white"/>
+  <circle cx="198" cy="128" r="3" fill="white"/>
+  <circle cx="182" cy="128" r="1" fill="black"/>
+  <circle cx="198" cy="128" r="1" fill="black"/>
+  <!-- Wings (flippers) -->
+  <ellipse cx="150" cy="180" rx="10" ry="25" fill="black" transform="rotate(-20 150 180)"/>
+  <ellipse cx="230" cy="180" rx="10" ry="25" fill="black" transform="rotate(20 230 180)"/>
+  <!-- Feet -->
+  <ellipse cx="175" cy="230" rx="8" ry="4" fill="orange"/>
+  <ellipse cx="205" cy="230" rx="8" ry="4" fill="orange"/>
+  
+  <!-- Shadow under wheels -->
+  <ellipse cx="120" cy="235" rx="20" ry="5" fill="rgba(0,0,0,0.3)"/>
+  <ellipse cx="220" cy="235" rx="20" ry="5" fill="rgba(0,0,0,0.3)"/>
+</svg>
