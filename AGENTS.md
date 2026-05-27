@@ -38,22 +38,23 @@ SVG 에셋, 예제 스크립트 등 다양한 학습 자료가 포함되어 있�
 
 ## 커밋 컨벤션
 
-커밋 메시지는 다음의 **이중 언어 형식**을 따른다.
+커밋 메시지는 다음 형식을 따른다.
 
 ```
-<타입>(<범위>): <영어 요약>
-
-<변경 내용에 대한 한국어 설명>
+<타입>: <한글로 작성한 변경 내용 요약>
 ```
 
-**타입 종류**: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`
+**타입 종류**: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`, `asset`
 
 **예시**:
 ```
-docs(readme): add project overview
-
-프로젝트 개요 및 사용 방법을 README에 추가하였습니다.
+docs: AGENTS.md 행동 지침 작성
+feat: 로그인 페이지 UI 추가
+fix: 버튼 클릭 이벤트 미동작 수정
+asset: 고양이 SVG 아이콘 추가
 ```
+
+> 상세 규칙은 `.agents/git-commit/SKILL.md`를 참고한다.
 
 ---
 
@@ -70,8 +71,15 @@ docs(readme): add project overview
 
 ---
 
+## 프런트엔드 디자인
+
+- 모든 프런트엔드 디자인 및 UI 구현은 **[DESIGN.md](./DESIGN.md)** 를 반드시 참고하여 진행한다.
+- 이 프로젝트는 **Glacier (Glassmorphism)** 디자인 시스템을 사용한다.
+- 색상, 글래스 효과, 타이포그래피, 컴포넌트 스타일 등 모든 시각적 결정은 DESIGN.md의 명세를 기준으로 한다.
+
+---
+
 ## 주의 사항
 
 - 빌드 아티팩트 및 OS 전용 파일(`.DS_Store`, `Thumbs.db` 등)은 커밋하지 않는다.
 - SVG, 이미지 등 에셋 파일은 역할을 명확히 알 수 있는 이름으로 관리한다.
-나ㅑ
